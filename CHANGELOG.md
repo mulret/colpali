@@ -7,10 +7,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+### Added
+
+- Add ColQwen3 and BiQwen3 support (model + processor).
+
+### Tests
+
+- Cover ColQwen3 processing and modeling with slow integration tests.
+
+## [0.3.13] - 2025-11-15
+
+### Added
+
 - Add ModernVBERT to the list of supported models
+
+### Fixed
+
 - Fix multi hard negatives training
-- Bump transformer, torch and peft support
 - Fix multi dataset sampling in order to weight probability of being picked by the size of the dataset
+
+### Changed 
+
+- Bump transformer, torch and peft support
 
 ## [0.3.12] - 2025-07-16
 
